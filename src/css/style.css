@@ -1,0 +1,443 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cabin", sans-serif;
+    font-family: "Quicksand", sans-serif;
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #7e7e7e;
+    font-size: 13px;
+  }
+  
+  /* Header-top baslangic*/
+  .header-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    border-bottom-color: #ccc;
+  }
+  
+  .left-slice a {
+    margin: 5px;
+  }
+  
+  .left-slice a:not(:last-child)::after {
+    content: "|";
+    margin: 0 7px;
+  }
+  
+  .center-slice p {
+    color: #7e7e7e;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .right-slice span {
+    color: #7e7e7e;
+    font-size: 13px;
+    margin: 6px;
+  }
+  
+  .right-slice strong {
+    color: #3bb77b;
+    font-size: 14px;
+  }
+  
+  .right-slice a {
+    margin: 6px;
+  }
+  
+  .right-slice a:not(:first-child)::before {
+    content: "|";
+    margin: 0 5px;
+  }
+  /* Header-top son */
+  
+  /* Header-middle baslangic */
+  .header-middle {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 10px;
+    border-bottom: 1px solid #ccc;
+    border-bottom-color: #ccc;
+  }
+  
+  .logo img {
+    width: 180px;
+    height: 55px;
+  }
+  
+  .srch {
+    display: flex;
+    width: 666px;
+    height: 54px;
+    border: 2px solid #bce3c9;
+    border-radius: 4px;
+  }
+  
+  .all {
+    font-size: 14px;
+    font-weight: 600;
+    color: #253d4e;
+    text-align: center;
+    border: none;
+    outline: none;
+    margin-top: 15px;
+    border-right: 1px solid #7e7e7e;
+    cursor: pointer;
+  }
+  
+  .right-search input {
+    border: none;
+    outline: none;
+    margin-top: 16px;
+    margin-left: 15px;
+  }
+  
+  .right-search i {
+    font-size: 20px;
+    color: #7e7e7e;
+    line-height: 43px;
+  }
+  
+  .fa-solid {
+    margin-left: 290px;
+  }
+  
+  .icons {
+    display: flex;
+  }
+  
+  .bx1 {
+    margin: 10px;
+  }
+  
+  .bx1 span {
+    color: #7e7e7e;
+  }
+
+  .show {
+    display: block !important;
+  }
+  
+  .active {
+    color: green !important;
+  }
+
+  .header-cart {
+    display: none;
+    position: absolute;
+    z-index: 999;
+    background: white;
+    top: 120px;
+    right: 90px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 20px;
+  }
+   .header-cart .cart-products .cart-product {
+    width: 200px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+   .header-cart .cart-products .cart-product .pr-img img {
+    width: 80px;
+    height: 80px;
+  }
+   .header-cart .cart-products .cart-product .pr-detail .pr-title {
+    font-size: 17px;
+  }
+   .header-cart .cart-products .cart-product .pr-detail .pr-price {
+    font-size: 20px;
+  }
+   .header-cart .cart-products .cart-product .pr-btn i {
+    color: #3bb77b;
+    pointer-events: none;
+  }
+  .header-cart .cart-products .cart-product .pr-btn i.fa-solid{
+    margin-left: 0;
+  }
+   .header-cart .cart-total {
+    border-top: 2px solid black;
+    margin-top: 20px;
+    padding: 20px 0;
+  }
+   .header-cart .cart-total .total-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+   .header-cart .cart-total .total-text .total {
+    font-size: 20px;
+  }
+   .header-cart .cart-total .total-text .total-price {
+    font-size: 24px;
+  }
+   .header-cart .cart-total .basket-link {
+    margin-top: 10px;
+  }
+   .header-cart .cart-total .basket-link a {
+    text-decoration: none;
+    color: red;
+    font-weight: 700;
+  }
+  /* Header-middle son */
+  
+  /* Header-bottom baslangic */
+  .header-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    border-bottom: 1px solid #ccc;
+    border-bottom-color: #ccc;
+  }
+  
+  .first {
+    width: 232px;
+    height: 40px;
+    border: 1px solid #3bb77e;
+    border-radius: 4px;
+    background-color: #3bb77e;
+    cursor: pointer;
+  }
+  
+  .first:hover {
+    background-color: #3ba875;
+  }
+  
+  .first p {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-align: center;
+    margin: 8px;
+  }
+  
+  .second a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #253d4e;
+    margin: 20px;
+    transition: all 0.3s;
+  }
+  
+  .second a:hover {
+    color: #3bb77b;
+  }
+  
+  .third {
+    display: flex;
+  }
+  
+  .photo img {
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  .right-photo span {
+    font-size: 23px;
+    font-weight: bold;
+    color: #3bb77b;
+  }
+  
+  .right-photo p {
+    color: #7e7e7e;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  /* Header-bottom son */
+  
+  /* Second section baslangic */
+  
+  .second-section {
+    width: 100%;
+  }
+  
+  .top-section {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .top-section-left h1 {
+    font-size: 32px;
+    color: #253d4e;
+  }
+  
+  .top-section-right a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #253d4e;
+    margin: 12px;
+  }
+  
+  .top-section-right a:hover {
+    color: #3bb77e;
+  }
+
+  .card-text p {
+  font-size: 12px;
+  color: #adadad;
+  margin-bottom: 10px;
+}
+
+.card-text h1 {
+  font-size: 16px;
+  color: #253d4e;
+  margin-bottom: 10px;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.card-text h1:hover {
+  color: #3bb77b;
+}
+
+.card-text h2 {
+  font-size: 14px;
+  color: #3bb77e;
+  margin-bottom: 10px;
+}
+
+.card-text span {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #3bb77e;
+}
+
+.card-text span.little-span {
+  font-size: 14px;
+  color: #adadad;
+  text-decoration: line-through;
+  margin-left: 10px;
+}
+
+.card-text a {
+  font-size: 14px;
+  color: #3bb77e;
+  background-color: #def9ec;
+  padding: 10px 28px;
+  border: 1px solid #def9ec;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.card-text a:hover {
+  color: #ffffff;
+  background-color: #3bb77b;
+  border: 1px solid #3bb77b;
+  box-shadow: 0 8px 50px #3bb77b;
+  transform: translateY(-3px);
+}
+
+.bottom-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card {
+  width: 18%;
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  margin-bottom: 30px;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.card-text {
+  margin: 15px 20px;
+}
+
+
+/* Cart hissenin baslangici */
+
+#Basket {
+    padding: 2rem 0;
+  }
+  #Basket .container .row .basket-products {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  #Basket .container .row .basket-products .custom-card {
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #Basket .container .row .basket-products .custom-card .img-div {
+    width: 80px;
+  }
+  #Basket .container .row .basket-products .custom-card .img-div img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  #Basket .container .row .basket-products .custom-card .content .title {
+    font-size: 16px;
+  }
+  #Basket .container .row .basket-products .custom-card .content .price {
+    font-size: 18px;
+  }
+  #Basket .container .row .basket-products .custom-card .count-controller {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  #Basket .container .row .basket-products .custom-card .count-controller button {
+    border-radius: 50%;
+    background: 0;
+    border: none;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+  }
+  #Basket .container .row .basket-products .custom-card .count-controller button i {
+    font-size: 18px;
+  }
+  #Basket .container .row .basket-products .custom-card .count-controller .fa-solid{
+    margin-left: 0;
+  }
+  #Basket .container .row .basket-products .custom-card .count-controller .item-count {
+    font-size: 18px;
+  }
+  #Basket .container .row .overall .all-div h3 {
+    font-size: 18px;
+  }
+  #Basket .container .row .overall .all-div h3 #totalbasketcount,
+  #Basket .container .row .overall .all-div h3 #totalbasketprice {
+    font-size: 18px;
+  }
+  
+/* Cart hissenin sonu */
+

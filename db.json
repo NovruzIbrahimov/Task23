@@ -1,0 +1,73 @@
+{
+    "products": [{
+        "id": 1,
+        "title1": "Snack",
+        "title2": "Angie’s Boomchickapop Sweet & Salty Kettle Corn",
+        "title3": "By StarKist",
+        "price": "48.85",
+        "image": "src/images/product-1-1.jpg"
+    },{
+        "id": 2,
+        "title1": "Hodo foods",
+        "title2": "Angie’s Boomchickapop Sweet & Salty Kettle Corn",
+        "title3": "By StarKist",
+        "price": "48.85",
+        "image": "src/images/product-2-1.jpg"
+    },{
+        "id": 3,
+        "title1": "Snack",
+        "title2": "Angie’s Boomchickapop Sweet & Salty Kettle Corn",
+        "title3": "By StarKist",
+        "price": "48.85",
+        "image": "src/images/product-3-1.jpg"
+    },{
+        "id": 4,
+        "title1": "Vegetables",
+        "title2": "Angie’s Boomchickapop Sweet & Salty Kettle Corn",
+        "title3": "By StarKist",
+        "price": "48.85",
+        "image": "src/images/product-4-1.jpg"
+    },{
+        "id": 5,
+        "title1": "Pet foods",
+        "title2": "Angie’s Boomchickapop Sweet & Salty Kettle Corn",
+        "title3": "By StarKist",
+        "price": "48.85",
+        "image": "src/images/product-5-1.jpg"
+    },{
+        "id": 6,
+        "title1": "Hodo foods",
+        "title2": "Angie’s Boomchickapop Sweet & Salty Kettle Corn",
+        "title3": "By StarKist",
+        "price": "48.85",
+        "image": "src/images/product-6-1.jpg"
+    },{
+        "id": 7,
+        "title1": "Meats",
+        "title2": "Angie’s Boomchickapop Sweet & Salty Kettle Corn",
+        "title3": "By StarKist",
+        "price": "48.85",
+        "image": "src/images/product-7-1.jpg"
+    },{
+        "id": 8,
+        "title1": "Coffees",
+        "title2": "Angie’s Boomchickapop Sweet & Salty Kettle Corn",
+        "title3": "By StarKist",
+        "price": "48.85",
+        "image": "src/images/product-8-1.jpg"
+    },{
+        "id": 9,
+        "title1": "Snack",
+        "title2": "Angie’s Boomchickapop Sweet & Salty Kettle Corn",
+        "title3": "By StarKist",
+        "price": "48.85",
+        "image": "src/images/product-9-1.jpg"
+    },{
+        "id": 10,
+        "title1": "Cream",
+        "title2": "Angie’s Boomchickapop Sweet & Salty Kettle Corn",
+        "title3": "By StarKist",
+        "price": "48.85",
+        "image": "src/images/product-4-1.jpg"
+    }]
+    }
